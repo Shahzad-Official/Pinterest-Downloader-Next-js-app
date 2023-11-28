@@ -1,0 +1,95 @@
+.home{
+    display:  flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    margin-left: 10px;
+    border: none;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 50px 0px 0px 50px;
+}
+.input input{
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.input input::placeholder{
+    color: white;
+}
+.input input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.formBox .link{
+    background-color: white;
+    padding: 13px 15px 13px 15px;
+    border-radius:50px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+}
+
+.formBox h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+.formBox p{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.paste_btn{
+    margin-right: 10px;
+    border-radius: 0px 50px 50px 0px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 0.9;
+    color: var(--primary-color);
+}
+.disableBtn{
+    cursor: not-allowed;
+}
+
+@media screen and (max-width:550px) {
+    .paste_btn{
+        width: 100px;
+        font-size: 14px;
+    }
+    .input input{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,25 @@
+:root{
+    --primary-color:#9a0017;
+    --secondary-color:#e60023;
+  }
+body{
+    background-color: white;
+    margin: 0;
+    pad:0;
+}
+input:focus {
+    outline: none;
+  }
+  button{
+    cursor: pointer;
+  }
+  
+  .mt-10{
+    margin-top: 10px;
+  }
+  .mt-20{
+    margin-top: 20px;
+  }
+  .spacer {
+    margin: 0 10px; 
+  }

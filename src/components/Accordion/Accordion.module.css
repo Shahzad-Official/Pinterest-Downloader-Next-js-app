@@ -1,0 +1,49 @@
+
+.accordion {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  
+  .header {
+    padding: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .header h3 {
+    margin: 0; /* Reset margin for h3 */
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+  
+  
+  .arrow {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .contentBox{
+    background-color: white;
+    margin: 0;
+    max-height: 0px; 
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .content {
+    padding: 10px;
+  }
+
+ .open .contentBox{
+    max-height: 100px;
+ }
+  
+  
+  

@@ -1,0 +1,21 @@
+.boxContainer {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 5px;
+  width: 7px;
+  background-color: var(--primary-color);
+}
+
+.centerBox {
+  width: 80px;
+  height: 5px;
+  background-color: var(--primary-color);
+}

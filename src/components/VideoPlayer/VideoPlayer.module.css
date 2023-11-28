@@ -1,0 +1,59 @@
+.parentBox {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.parentBox h2 {
+  text-align: center;
+}
+.divider {
+  height: 2px;
+  width: 100%;
+  background-color: red;
+}
+.itemBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.itemBox img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}
+.video {
+  display: flex;
+  height: 500px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.downloadButton {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  width: 250px;
+  height: fit-content;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0px 45px 0px 45px;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.downloadButtonsBox {
+  display: flex;
+  flex-direction: column;
+}
